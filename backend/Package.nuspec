@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BaseLogging</id>
+    <version>1.0.0</version>
+    <authors>Nick.Lawson</authors>
+    <owners>Nick.Lawson</owners> 
+    <projectUrl>https://wiki.lawsoncs.com/index.php?title=Claims_Logging_Library</projectUrl>
+    <iconUrl>https://lh5.ggpht.com/kEvCkfWu-Ijx7beQ4RCNPjZGKcY9vf2XSfHlBvpOjs9CFPTWPFubia_YbYMaW2cJyQDR=w300</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Claims logging utility</description>
+    <releaseNotes>Edits around packaing</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <dependencies>
+      <dependency id="log4net" version="2.0.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Install.ps1" target="tools\Install.ps1" />
+    <file src="loggingSettings.config" target="config\loggingSettings.config" />
+    <file src="misc\bin\Release4.5.2\*.pdb" target="lib\net452\" />
+    <file src="misc\bin\Release4.5.2\*.dll" target="lib\net452\" />
+    <file src="misc\bin\Release4.5\*.pdb" target="lib\net45\" />
+    <file src="misc\bin\Release4.5\*.dll" target="lib\net45\" />
+    <file src="**\*.cs" target="src" />
+    <file src="BaseLogging.targets" target="build\BaseLogging.targets" />
+    <file src="ReadMe.txt" target="" />
+  </files>
+</package>
