@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;  
 
-namespace Claims.Common.Logging.Reporting
+namespace BaseLogging.Reporting
 {
     public struct LogHolder
     {

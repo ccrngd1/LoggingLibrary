@@ -7,8 +7,8 @@
     <ProjectGuid>{860C790B-5F71-42FB-A322-AC53F77DE2F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Claims.Common.Logging.Reporting</RootNamespace>
-    <AssemblyName>Claims.Common.Logging.Reporting</AssemblyName>
+    <RootNamespace>BaseLogging.Reporting</RootNamespace>
+    <AssemblyName>BaseLogging.Reporting</AssemblyName>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug4.5.2|AnyCPU' ">

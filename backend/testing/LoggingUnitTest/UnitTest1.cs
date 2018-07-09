@@ -7,13 +7,12 @@ using log4net;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using BaseLogging;
 using BaseLogging.Data;
 using BaseLogging.Objects;
 using BaseLogging.UnitTest;
 
 
-namespace Claims.Common.Logging.UnitTests
+namespace BaseLogging.UnitTests
 {
     [TestClass]
     public class UnitTest1

@@ -7,8 +7,8 @@
     <ProjectGuid>{C9F0E877-7C4C-4851-BDCD-C138F8CB67C3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZirMed.Claims.Common.Logging</RootNamespace>
-    <AssemblyName>ZirMed.Claims.Common.Logging</AssemblyName>
+    <RootNamespace>BaseLogging</RootNamespace>
+    <AssemblyName>BaseLogging</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
@@ -66,6 +66,9 @@
       <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -82,6 +85,7 @@
     <Compile Include="ISaveLog\EmailSaver.cs" />
     <Compile Include="ExtensionsDAL.cs" />
     <Compile Include="ISaveLog\Log4NetSaver.cs" />
+    <Compile Include="ISaveLog\SplunkSaver.cs" />
     <Compile Include="LogBuilder.cs" />
     <Compile Include="LoggingDAL.cs" />
     <Compile Include="LogWrapper.cs" />

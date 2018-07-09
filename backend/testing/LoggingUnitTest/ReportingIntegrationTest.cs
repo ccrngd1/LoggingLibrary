@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using Claims.Common.Logging.Reporting;
+using BaseLogging.Reporting;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting; 
 
 
-namespace Claims.Common.Logging.UnitTests
+namespace BaseLogging.UnitTests
 {
     [TestClass]
     public class ReportingIntegrationTest

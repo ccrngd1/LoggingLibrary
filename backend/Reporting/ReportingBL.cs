@@ -4,7 +4,7 @@ using System.Linq;
 
 using Microsoft.Office.Interop.Excel;
 
-namespace Claims.Common.Logging.Reporting
+namespace BaseLogging.Reporting
 {
     public class ReportBL
     {

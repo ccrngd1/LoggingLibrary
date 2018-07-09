@@ -21,6 +21,9 @@ namespace BaseLogging.Objects
         [XmlElement(ElementName = "System")]
         public SystemSaverConfiguration Systems { get; set; } 
 
+	    [XmlElement(ElementName = "Splunk")]
+	    public SplunkConfiguration Splunk { get; set; }
+
         public Configuration()
         { 
             Log4NetConfigurations = new List<Log4NetConfiguration>(); 

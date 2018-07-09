@@ -7,8 +7,8 @@
     <ProjectGuid>{2ED8CC49-9DD0-452B-88A9-D66846F42E46}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Claims.Common.Logging.Objects</RootNamespace>
-    <AssemblyName>Claims.Common.Logging.Objects</AssemblyName>
+    <RootNamespace>BaseLogging.Objects</RootNamespace>
+    <AssemblyName>BaseLogging.Objects</AssemblyName>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug4.5.2|AnyCPU' ">
@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="configurations\Configuration.cs" />
     <Compile Include="configurations\ConfigurationBase.cs" />
+    <Compile Include="configurations\SplunkConfiguration.cs" />
     <Compile Include="configurations\SystemSaverConfiguration.cs" />
     <Compile Include="ConstantsEnums.cs" />
     <Compile Include="configurations\DatabaseConfiguration.cs" />
